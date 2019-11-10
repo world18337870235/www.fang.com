@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//base_path指向www.fang.com这个项目。
+include base_path('routes/admin/route.php');
